@@ -47,11 +47,35 @@ class _MyHomePageState extends State<MyHomePage> {
   getPage(int? page) {
     switch (page) {
       case 0:
-        return const Center(child: Text("Home Page"));
+        return const Center(
+            child: Text(
+          "Home Page",
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.black26,
+          ),
+        ));
       case 1:
-        return const Center(child: Text("Profile Page"));
+        return const Center(
+            child: Text(
+          "Profile Page",
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.black26,
+          ),
+        ));
       case 2:
-        return const Center(child: Text("Menu Page"));
+        return const Center(
+            child: Text(
+          "Menu Page",
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.black26,
+          ),
+        ));
     }
   }
 }
